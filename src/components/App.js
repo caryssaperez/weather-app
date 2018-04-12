@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
-import BookList from '../containers/BookList';
-import BookDetail from '../containers/BookDetail';
+import SearchBar from '../containers/SearchBar';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <BookList />
-        <BookDetail />
+        <SearchBar />
       </div>
     );
   }
